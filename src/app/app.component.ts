@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Angular 2 Template Form';
+  isDig:boolean = false;
+
+  OnSubmit(value:any){
+    console.log(value);
+  }
+
+  OnClick(templateVar:any){
+    console.log(templateVar);
+  }
+
+  DigTemplateVariable(){    
+    this.isDig = !this.isDig;
+  }
 }
