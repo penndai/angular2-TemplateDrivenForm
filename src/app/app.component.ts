@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular 2 Template Form';
+  title = 'Angular 2 Template Form-Including Validator and Custom Validation';
   isDig:boolean = false;
 
   OnSubmit(value:any){
